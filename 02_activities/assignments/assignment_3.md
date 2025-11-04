@@ -13,12 +13,17 @@ Dataset chosen fot this assignment:
 
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+       
         The first visualization is created by coding in Python (using Pandas, Matplotlib). The second visualization is produced using Microsoft excel.
+
     > Who is your intended audience? 
+       
         1. Regulators and policymakers- such as Ontario's Ministry of Colleges and Universities- who monitor private colleges performance on Key Performance Indicators (KPIs) like graduation, employment, and satisfaction rates.
         2. Prospective students and the public-  to help them make informed decisions about which colleges or programs to attend, using transparent performance data.
         3. College administrators and stakeholders- to benchmark their institution's performance against other results and identify areas for improvement.
+
     > What information or message are you trying to convey with your visualization? 
+       
         Python Chart- "Average KPI Values Across All Colleges":
             Purpose: To show the average performance of colleges across major KPIs (graduation, employment, satisfaction, and loan default).
             Message: Overall, colleges demonstrate high satisfaction and employment outcomes (around 80- 90%) and low OSAP default rates, indicating strong student success and employer approval.
@@ -28,6 +33,7 @@ Dataset chosen fot this assignment:
             Message: There are variations in data representation across program areas, with certain types (like Business, Health Services, and Human Services).
 
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+        
         Python visualization
             A bar chart was chosen to make differences between KPI averages visually clear and easy to rank. All bars are in the same color (blue) to emphasize value comparison rather than categorical distinction. Y-axis ranges from 0 to 1 to represent KPI percentages as comparable ratios. Axis titles and the chart title clearly communicate that values represent averages across colleges.
 
@@ -35,17 +41,21 @@ Dataset chosen fot this assignment:
             A pie chart was chosen to clearly show how each Program Type contributes to the overall dataset. Each program type is represented with a distinct color to visually separate categories and make the chart easier to interpret. Labels and legends were formatted for clarity, using concise text and consistent font sizes to enhance readability. 
 
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+        
         Python visualization: The entire notebook along with visualization is reproducible, because each step is documented, coded using Python (saved as python_code.ipynb) in a Jupyter notebook. Anyone can download the file, run the notebook and regenerate the exact same visualization.
 
         Excel visualization: This lacks full reproducibility because Excel don't track or provide a log with all the steps taken to generate a visualization from raw data. 
 
     > How did you ensure that your data visualization is accessible?  
+        
         Both the visualizations-  had Clear labeling including all axes, titles, and legends such that viewers can understand what each value and category represents without prior context. A simple and high-contrast color palette (e.g., blue tones) was used to ensure readability for users. Fonts and label sizes were chosen to remain legible even when charts are viewed in smaller formats or projected. Missing or blank categories were displayed to maintain honesty in data reporting and help users interpret results accurately.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+        
         Prospective students, college administratives, lecturers, professors, government policy makers, employers.
 
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+        
         Bar Chart in Python- Average KPI Values Across All Colleges (2022)
         Included features for KPI categories: Employer Satisfaction, Graduate Employment Rate, Graduate Satisfaction, Graduation Rate, Graduate Employment Rate in Field, and OSAP Default Rate.
         These are the key performance indicators (KPIs) used by Ontario colleges to evaluate institutional success.  The mean of each KPI across all colleges in 2022, providing a high-level comparison of institutional performance metrics.
@@ -57,6 +67,7 @@ Dataset chosen fot this assignment:
         Excluded features: Other KPIs (e.g., satisfaction rates, OSAP default rates) weren't included because the focus of this visualization was to compare employment outcomes across program types, not overall institutional performance.
 
     > What 'underwater labour' contributed to your final data visualization product?
+        
         In Python, I focused on data cleaning, preparation, filtering, and selection- removing missing or inconsistent values, organizing the dataset, and selecting only the relevant features needed for analysis. This groundwork allowed me to generate accurate and meaningful insights for the bar chart visualization.
 
         In Excel, my work centered on data transformation, visualization design, and testing. I reformatted and aggregated data to create summaries suitable for charting, experimented with different visual formats (such as pie charts), and refined elements like colors, labels, and legends to make the results visually clear and engaging.
